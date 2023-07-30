@@ -10,7 +10,7 @@
 
 <!-- ![TLO를 통한 기술 수요-공급 매칭](https://github.com/glee2/Markdown-practice/blob/main/Research_example1_figure1.png?raw=true){: width="80%" height="80%} -->
 
-<center><img src="https://github.com/glee2/Markdown-practice/blob/main/Research_example1_figure1.png?raw=true" width="80%" height="80%"></center>
+<p align="center"><img src="https://github.com/glee2/Markdown-practice/blob/main/Research_example1_figure1.png?raw=true" width="80%" height="80%"></p>
 
 ### 데이터
 - 기술 기능 데이터
@@ -31,7 +31,7 @@
 
 <!-- ![skim-gram 모델 구조 및 기술 기능-사업 요구사항 연계 지형 예시](https://github.com/glee2/Markdown-practice/blob/main/Research_example1_figure2.png?raw=true){: width="80%" height="80%} -->
 
-<center><img src="https://github.com/glee2/Markdown-practice/blob/main/Research_example1_figure2.png?raw=true" width="80%" height="80%"></center>
+<p align="center"><img src="https://github.com/glee2/Markdown-practice/blob/main/Research_example1_figure2.png?raw=true" width="80%" height="80%"></p>
 
 ### 연구 결과
 - 성능 평가 지표
@@ -41,4 +41,4 @@
 
 <!-- ![발명자 후보군 선정 예시 및 기술 수요-공급 매칭 결과](https://github.com/glee2/Markdown-practice/blob/main/Research_example1_figure3.png?raw=true){: width="50%" height="50%} -->
 
-<center><img src="https://github.com/glee2/Markdown-practice/blob/main/Research_example1_figure3.png?raw=true" width="60%" height="60%"></center>
+<p align="center"><img src="https://github.com/glee2/Markdown-practice/blob/main/Research_example1_figure3.png?raw=true" width="60%" height="60%"></p>
