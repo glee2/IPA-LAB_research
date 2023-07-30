@@ -35,4 +35,4 @@
     - 각 기술이전 거래 계약 사례의 사업 요구사항 벡터에 대해, 기술 기능-사업 요구사항 연계 지형상 가장 가까운 K개 기술 기능을 *기술 발명자 후보군*으로 선정
     - 전체 기술이전 거래 계약 중 *실제 발명자*가 K개 *발명자 후보군*에 포함된 경우의 비율
 
-![발명자 후보군 선정 예시 및 기술 수요-공급 매칭 결과](https://github.com/glee2/Markdown-practice/blob/main/Research_example1_figure3.png?raw=true){: width="60%" height="60%}
+![발명자 후보군 선정 예시 및 기술 수요-공급 매칭 결과](https://github.com/glee2/Markdown-practice/blob/main/Research_example1_figure3.png?raw=true){: width="50%" height="50%}
