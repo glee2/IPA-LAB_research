@@ -8,7 +8,9 @@
 - 정량적 데이터와 체계적인 방법론을 기반으로 하는 기술 수요-공급 매칭 프레임워크의 필요성 대두됨
   - 기술 기능과 사업 요구사항 사이의 의미적 관계를 모델링할 수 있는 데이터 및 방법론 도입이 필요함
 
-![TLO를 통한 기술 수요-공급 매칭](https://github.com/glee2/Markdown-practice/blob/main/Research_example1_figure1.png?raw=true){: width="80%" height="80%}
+<!-- ![TLO를 통한 기술 수요-공급 매칭](https://github.com/glee2/Markdown-practice/blob/main/Research_example1_figure1.png?raw=true){: width="80%" height="80%} -->
+
+<img src="https://github.com/glee2/Markdown-practice/blob/main/Research_example1_figure1.png?raw=true" width="80%" height="80%">
 
 ### 데이터
 - 기술 기능 데이터
