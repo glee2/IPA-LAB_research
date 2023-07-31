@@ -26,7 +26,7 @@
 - fastText를 활용하여 <b>기술 기능–사업 요구사항 연계 지형(landscape)</b>을 구축함
   - fastText: 특정 단어 입력 시 주변 단어를 예측하는 skim-gram 모델을 기반으로 하여 단어를 벡터화하는 워드 임베딩 모델
 - <b>코사인 유사도(Cosine similarity)</b>를 활용하여 기술 기능–사업 요구사항 벡터 간 유사도를 측정함
-  - $$ Cos(v_I,v_L) = {{v_I \cdot v_L} \over {|v_I| \cdot |v_L|}}, v_I: {기술\,기능\,벡터}, v_L: {사업\,요구사항\,벡터} $$
+  - $$Cos(v_I,v_L) = {{v_I \cdot v_L} \over {|v_I| \cdot |v_L|}}, v_I: {기술\,기능\,벡터}, v_L: {사업\,요구사항\,벡터}$$
 - 벡터 간 유사도가 높은 기술 기능–사업 요구사항의 기술 발명자와 사용자를 기술이전 파트너로서 적합한 것으로 판단함
 
 <!-- ![skim-gram 모델 구조 및 기술 기능-사업 요구사항 연계 지형 예시](https://github.com/glee2/Markdown-practice/blob/main/Research_example1_figure2.png?raw=true){: width="80%" height="80%} -->
