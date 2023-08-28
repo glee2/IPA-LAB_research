@@ -4,7 +4,7 @@
 
 
 
-$$ \vert { {SOH}^{i}_{t} - \widehat{SOH}^{i}_{t} } \vert $$ 
+$$ \vert {{SOH}^{i}_{t} - \widehat{SOH}^{i}_{t}} \vert $$ 
 
 
 
