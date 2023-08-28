@@ -59,7 +59,7 @@ $$ SOH(t)= {{C(t)} \over {C(0)}},\ C(0): 최초\ 충전\ 용량, C(t): t시점�
   - 다음과 같이 회귀 예측을 위한 성능 평가 지표를 도입하여, 배터리 건강 상태 예측에 대한 성능 평가를 수행함
 
 $$ MAPE={1 \over N} \sum^{N}_{i=1}({{|{SOH^{i}_{t}-\widehat{SOH}^{i}_{t}}|} \over {SOH^{i}_{t}}})*100 $$
-  
+   TEST
 <math xmlns="http://www.w3.org/1998/Math/MathML" style="color:rgba(0,0,0,255);color:rgb(0,0,0);font-size:36.00pt;"><!--latexit:AAAFPHjabVNdTBxVFD537rYFWroD9IfSv6ksCm2puy1apKIsBQq2DLS7CwssrLOz
 d3enzM6sM3eh2+0k96GpxuiD8aHaBxWIsTXGv2hjTKoxihpjiAJRE6OmT30xPvhi
 TGPi3R8rmt6byZxz7vn5znfPjWV0zaZe7yoSsGvd+g1VYc8MsWzNNMY8iqWmNK4F
