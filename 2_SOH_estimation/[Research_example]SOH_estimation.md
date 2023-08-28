@@ -18,7 +18,7 @@ $$ SOH(t)= {{C(t)} \over {C(0)}},\ C(0): 최초\ 충전\ 용량, C(t): t시점�
 - 전기차에 사용되는 리튬-이온 배터리 379개의 수명 열화 데이터를 활용함(현대자동차 제공)
   - 0~1,000 충・방전 주기 동안의 SOH 값이 기록되어 있음
 
-<p align="center"><img src="https://github.com/glee2/Markdown-practice-glee/assets/18283601/4a2ce32d-5fad-49dd-a1fb-ecb718bd4413" width="80%" height="80%"></p>
+<p align="center"><img src="https://github.com/glee2/Markdown-practice/blob/main/2_SOH_estimation/Figure1.png?raw=true" width="80%" height="80%"></p>
 
 ### 방법론
 - RP (Recurrence plot), GAF (Gramian angular fields)와 같은 시계열-이미지 변환 방법(time-series imaging methods)을 활용하여 시계열 형태인 배터리 수명 열화 데이터를 이미지 형태의 데이터로 변환함
@@ -26,12 +26,12 @@ $$ SOH(t)= {{C(t)} \over {C(0)}},\ C(0): 최초\ 충전\ 용량, C(t): t시점�
   - GAF: 시계열 데이터의 각 시점의 값 사이의 상관 관계를 극좌표를 기준으로 표현하여 이미지 형태로 변환하는 방법. 시계열 데이터의 값을 각도의 합 또는 차를 이용하여 나타내며, 이에 따라 Gramian angular summation field (GASF)와 Gramian angular difference field (GADF)의 두 가지 방식으로 구분됨
   - 본 연구에서는 RP와 GAF 방법을 통해 배터리 수명 열화 데이터를 다음과 같이 충・방전 주기에 따른 2차원 이미지로 변환함
 
-<p align="center"><img src="https://github.com/glee2/Markdown-practice-glee/assets/18283601/eb26dcd7-54f0-4fd8-89e9-8f186716c1da" width="80%" height="80%"></p>
+<p align="center"><img src="https://github.com/glee2/Markdown-practice/blob/main/2_SOH_estimation/Figure2.png?raw=true" width="80%" height="80%"></p>
 
 - 이미지 데이터 처리에 강점이 있는 CNN (Convolutional neural networks)을 활용하여 배터리 수명 열화 데이터의 초기 충・방전 주기(예: 100주기)의 SOH 값을 입력으로, 후기 충・방전 주기(예: 700주기)의 SOH 값을 출력으로 하는 회귀 예측 모델을 구축함
   - CNN 모델에 RP와 GAF 이미지를 병렬로 입력함으로써 미래 SOH 값 예측에 배터리 수명 열화 패턴에 대한 풍부한 정보를 반영하도록 함
 
-<p align="center"><img src="https://github.com/glee2/Markdown-practice-glee/assets/18283601/83f63a64-5c10-4bfa-b12e-899da995b73d" width="80%" height="80%"></p>
+<p align="center"><img src="https://github.com/glee2/Markdown-practice/blob/main/2_SOH_estimation/Figure3.png?raw=true" width="80%" height="80%"></p>
 
 - CAM (Class activation map) 기법을 도입하여 미래 SOH 값에 영향을 미치는 배터리의 초기 충・방전 주기의 주요한 시계열적 특징을 포착함
   
@@ -60,11 +60,11 @@ $$ N: 데이터\ 샘플\ 수,\ SOH^{i}_{t}:\ i번째\ 샘플의\ 실제\ t시점
 ### 연구 결과
 - 기존 데이터 기반 배터리 건강 상태 예측 방법론과의 비교 분석을 실시하여 다음의 성능 평가 결과를 얻었으며, 본 연구에서 제안한 방법론이 대부분의 예측 범위에서 가장 높은 성능을 달성하였음
 
-<p align="center"><img src="https://github.com/glee2/Markdown-practice-glee/assets/18283601/4bf65812-bfc4-42af-931a-46912dfe9bed" width="60%" height="60%"></p>
+<p align="center"><img src="https://github.com/glee2/Markdown-practice/blob/main/2_SOH_estimation/Figure4.png?raw=true" width="80%" height="80%"></p>
 
 - CAM 기법을 활용하여 미래 SOH 값에 대한 초기 충・방전 주기의 SOH 값의 영향을 다음과 같이 활성화 맵의 형태로 나타냄
   - 100주기 동안의 SOH 값을 입력으로 하여 700주기 시점의 SOH 값을 예측하는 CNN 모델에 대해 적용한 결과임
   - 최종 시점(700주기)의 SOH 값에 따라 0~0.7, 0.7~0.75, 0.75~0.8, 0.8~0.85, 0.85~1.0의 5가지 배터리 샘플에 대해 활성화 맵을 생성함
 - 배터리 건강 상태가 정상인 경우 극초기 충・방전 주기(25~50)의 SOH 값의 영향이 큰 반면, 불량인 경우 중간 시점 충・방전 주기(50~100)의 SOH 값의 영향이 큰 것으로 나타남
 
-<p align="center"><img src="https://github.com/glee2/Markdown-practice-glee/assets/18283601/801ddd5c-a8ef-44c0-a92e-d346c8a8d158" width="60%" height="60%"></p>
+<p align="center"><img src="https://github.com/glee2/Markdown-practice/blob/main/2_SOH_estimation/Figure5.png?raw=true" width="80%" height="80%"></p>

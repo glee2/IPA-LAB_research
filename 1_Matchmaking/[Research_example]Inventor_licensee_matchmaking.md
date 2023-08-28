@@ -8,7 +8,7 @@
 - 정량적 데이터와 체계적인 방법론을 기반으로 하는 기술 수요-공급 매칭 프레임워크의 필요성이 대두됨
   - 기술 기능과 사업 요구사항 사이의 의미적 관계를 모델링할 수 있는 데이터 및 방법론 도입이 필요함
 
-<p align="center"><img src="https://github.com/glee2/Markdown-practice/blob/main/Research_example1_figure1.png?raw=true" width="80%" height="80%"></p>
+<p align="center"><img src="https://github.com/glee2/Markdown-practice/blob/main/1_Matchmaking/Research_example1_figure1.png?raw=true" width="80%" height="80%"></p>
 
 ### 데이터
 - 기술 기능 데이터
@@ -27,7 +27,7 @@
   - $$Cos(v_I,v_L) = {{v_I \cdot v_L} \over {|v_I| \cdot |v_L|}}, v_I: {기술\ 기능\ 벡터}, v_L: {사업\ 요구사항\ 벡터}$$
 - 벡터 간 유사도가 높은 기술 기능–사업 요구사항의 기술 발명자와 사용자를 기술이전 파트너로서 적합한 것으로 판단함
 
-<p align="center"><img src="https://github.com/glee2/Markdown-practice/blob/main/Research_example1_figure2.png?raw=true" width="80%" height="80%"></p>
+<p align="center"><img src="https://github.com/glee2/Markdown-practice/blob/main/1_Matchmaking/Research_example1_figure2.png?raw=true" width="80%" height="80%"></p>
 
 ### 연구 결과
 - 성능 평가 지표
@@ -35,4 +35,4 @@
     - 각 기술이전 거래 계약 사례의 사업 요구사항 벡터에 대해, 기술 기능-사업 요구사항 연계 지형상 가장 가까운 K개 기술 기능을 *기술 발명자 후보군*으로 선정
     - 전체 기술이전 거래 계약 중 *실제 발명자*가 K개 *발명자 후보군*에 포함된 경우의 비율
 
-<p align="center"><img src="https://github.com/glee2/Markdown-practice/blob/main/Research_example1_figure3.png?raw=true" width="60%" height="60%"></p>
+<p align="center"><img src="https://github.com/glee2/Markdown-practice/blob/main/1_Matchmaking/Research_example1_figure3.png?raw=true" width="60%" height="60%"></p>
