@@ -33,7 +33,7 @@ $$ SOH(t)= {{C(t)} \over {C(0)}},\ C(0): 최초\ 충전\ 용량, C(t): t시점�
 
 <p align="center"><img src="https://github.com/glee2/Markdown-practice/blob/main/2_SOH_estimation/Figure2.png?raw=true" width="80%" height="80%"></p>
 
-- 이미지 데이터 처리에 강점이 있는 <b>CNN (Convolutional neural networks)<b>을 활용하여 배터리 수명 열화 데이터의 초기 충・방전 주기(예: 100주기)의 SOH 값을 입력으로, 후기 충・방전 주기(예: 700주기)의 SOH 값을 출력으로 하는 회귀 예측 모델을 구축함
+- 이미지 데이터 처리에 강점이 있는 <b>CNN (Convolutional neural networks)</b>을 활용하여 배터리 수명 열화 데이터의 초기 충・방전 주기(예: 100주기)의 SOH 값을 입력으로, 후기 충・방전 주기(예: 700주기)의 SOH 값을 출력으로 하는 회귀 예측 모델을 구축함
   - CNN 모델에 RP와 GAF 이미지를 병렬로 입력함으로써 미래 SOH 값 예측에 배터리 수명 열화 패턴에 대한 풍부한 정보를 반영하도록 함
 
 <p align="center"><img src="https://github.com/glee2/Markdown-practice/blob/main/2_SOH_estimation/Figure3.png?raw=true" width="80%" height="80%"></p>
