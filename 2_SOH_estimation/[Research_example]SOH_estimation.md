@@ -14,11 +14,13 @@
 - 배터리 수명 열화 데이터
   - 내구성 평가를 위해 배터리의 충・방전을 반복함에 따라 변화하는 SOH 값이 기록된 데이터
   - SOH 값은 다음과 같이 리튬-이온 배터리의 최초 충전 용량 대비 특정 시점에서 남아있는 용량의 비율로 정의됨
+
 $$ SOH(t)= {{C(t)} \over {C(0)}},\ C(0): 최초\ 충전\ 용량, C(t): t시점의\ 충전\ 용량 $$
+
 - 전기차에 사용되는 리튬-이온 배터리 379개의 수명 열화 데이터를 활용함(현대자동차 제공)
   - 0~1,000 충・방전 주기 동안의 SOH 값이 기록되어 있음
 
-<p align="center"><img src="https://github.com/glee2/Markdown-practice/blob/main/2_SOH_estimation/Figure1.png?raw=true" width="80%" height="80%"></p>
+<p align="center"><img src="https://github.com/glee2/Markdown-practice/blob/main/2_SOH_estimation/Figure1.jpg?raw=true" width="80%" height="80%"></p>
 
 ### 방법론
 - RP (Recurrence plot), GAF (Gramian angular fields)와 같은 시계열-이미지 변환 방법(time-series imaging methods)을 활용하여 시계열 형태인 배터리 수명 열화 데이터를 이미지 형태의 데이터로 변환함
