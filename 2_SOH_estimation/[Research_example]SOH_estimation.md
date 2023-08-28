@@ -4,9 +4,9 @@
 
 $$ MAPE= {{1 \over N} \sum^{N}_{i=1}{({{|{SOH^{i}_{t} - \widehat{SOH}^{i}_{t}}}}|} \over {SOH^{i}_{t}}})}*100} $$
 
-$$ {{1 \over N} \sum^{N}_{i=1}{(ASDF)}} $$
+$$ \hat{SOH}^{i}_{t} $$
 
-$$ SOH(t)= {{C(t)} \over {C(0)}},\ C(0): 최초\ 충전\ 용량, C(t): t시점의\ 충전\ 용량 $$
+$$ {{1 \over N} \sum^{N}_{i=1}{()}} $$
 
 $$ N: 데이터\ 샘플\ 수,\ SOH^{i}_{t}:\ i번째\ 샘플의\ 실제\ t시점에서의\ SOH\ 값,\\\ \widehat{SOH}^{i}_{t}:\ 모델이\ 예측한\ i번째\ 샘플의\ t시점에서의\ SOH\ 값 $$
 
