@@ -4,7 +4,7 @@
 
 
 
-$$ \vert SOH^{i}_{t} - \widehat{SOH}^{i}_{t} \vert $$ 
+$$ \vert \widehat{SOH}^{i}_{t} - \widehat{SOH}^{i}_{t} \vert $$ 
 
 <!--
 $$ MAPE= {{1 \over N} \sum^{N}_{i=1}{({{|{SOH^{i}_{t} - \widehat{SOH}^{i}_{t}}}}|} \over {SOH^{i}_{t}}})}*100} $$
