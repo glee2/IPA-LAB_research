@@ -64,4 +64,4 @@ $$ F_{1}score_{i}={2 \cdot {{precision \cdot recall} \over {precision + recall}}
 ### 연구 결과
 - 확보한 전체 데이터셋에 5-fold 교차 검증 방식을 통해 다음의 성능 평가 결과를 얻었으며, 정상 상태와 10가지의 비정상 상태 모두에 대해 0.97 이상의 높은 정확도 및 분류 예측 성능 평가 지표를 달성하였음
 
-<p align="center"><img src="https://github.com/glee2/Markdown-practice/blob/main/3_NPP_abnormality/Figure6.png?raw=true" width="100%" height="100%"></p>
+<p align="center"><img src="https://github.com/glee2/Markdown-practice/blob/main/3_NPP_abnormality/Figure6.png?raw=true" width="80%" height="80%"></p>
