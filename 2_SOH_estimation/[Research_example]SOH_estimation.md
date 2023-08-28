@@ -2,9 +2,19 @@
 
 ## 오탈자, 시각화 수정, 강조 표시, 캡션 달기, 표 너비 수정
 
-$$ MAPE= {{1 \over N} \sum^{N}_{i=1}{({{|{SOH^{i}_{t} - \widehat{SOH}^{i}_{t}}}}|} \over {SOH^{i}_{t}}})}*100} $$
+
 
 $$ \vert { {SOH}^{i}_{t} - \widehat{SOH}^{i}_{t} } \vert $$ 
+
+
+
+
+
+
+
+
+
+$$ MAPE= {{1 \over N} \sum^{N}_{i=1}{({{|{SOH^{i}_{t} - \widehat{SOH}^{i}_{t}}}}|} \over {SOH^{i}_{t}}})}*100} $$
 
 $$ {{1 \over N} \sum^{N}_{i=1}{()}} $$
 
