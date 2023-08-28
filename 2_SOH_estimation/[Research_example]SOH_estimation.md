@@ -4,7 +4,7 @@
 
 $$ MAPE= {{1 \over N} \sum^{N}_{i=1}{({{|{SOH^{i}_{t} - \widehat{SOH}^{i}_{t}}}}|} \over {SOH^{i}_{t}}})}*100} $$
 
-$$ {{1 \over N} \sum^{N}_{i=1}{(ASDF)}}
+$$ {{1 \over N} \sum^{N}_{i=1}{(ASDF)}} $$
 
 $$ SOH(t)= {{C(t)} \over {C(0)}},\ C(0): 최초\ 충전\ 용량, C(t): t시점의\ 충전\ 용량 $$
 
