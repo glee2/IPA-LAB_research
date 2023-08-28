@@ -4,7 +4,7 @@
 
 $$ MAPE= {{1 \over N} \sum^{N}_{i=1}{({{|{SOH^{i}_{t} - \widehat{SOH}^{i}_{t}}}}|} \over {SOH^{i}_{t}}})}*100} $$
 
-$$ \hat{SOH}^{i}_{t} $$ 
+$$ \widehat{SOH}^{i}_{t} $$ 
 
 $$ {{1 \over N} \sum^{N}_{i=1}{()}} $$
 
