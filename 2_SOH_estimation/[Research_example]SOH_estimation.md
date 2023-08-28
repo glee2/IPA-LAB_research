@@ -37,6 +37,7 @@ $$ SOH(t)= {{C(t)} \over {C(0)}},\ C(0): 최초\ 충전\ 용량, C(t): t시점�
   - CNN 모델에 RP와 GAF 이미지를 병렬로 입력함으로써 미래 SOH 값 예측에 배터리 수명 열화 패턴에 대한 풍부한 정보를 반영하도록 함
 
 <p align="center"><img src="https://github.com/glee2/Markdown-practice/blob/main/2_SOH_estimation/Figure3.png?raw=true" width="80%" height="80%"></p>
+<p align="center"><u><b> 배터리 건강 상태 예측을 위한 CNN 모델 구조 </b></u></p>
 
 - CAM (Class activation map) 기법을 도입하여 미래 SOH 값에 영향을 미치는 배터리의 초기 충・방전 주기의 주요한 시계열적 특징을 포착함
   
@@ -58,11 +59,7 @@ $$ SOH(t)= {{C(t)} \over {C(0)}},\ C(0): 최초\ 충전\ 용량, C(t): t시점�
 - 예측 성능 평가
   - 다음과 같이 회귀 예측을 위한 성능 평가 지표를 도입하여, 배터리 건강 상태 예측에 대한 성능 평가를 수행함
 
-$$ MAPE={1 \over N} \sum^{N}_{i=1}({{|{SOH^{i}_{t}-\widehat{SOH}^{i}_{t}}|} \over {SOH^{i}_{t}}})*100 $$
-
-<p align="center"><img src="https://github.com/glee2/Markdown-practice/blob/main/2_SOH_estimation/MAPE.png?raw=true" width="80%" height="80%"></p>
-
-$$ N: 데이터\ 샘플\ 수,\ SOH^{i}_{t}:\ i번째\ 샘플의\ 실제\ t시점에서의\ SOH\ 값,\\\ \hat{SOH}^{i}_{t}:\ 모델이\ 예측한\ i번째\ 샘플의\ t시점에서의\ SOH\ 값 $$
+<p align="center"><img src="https://github.com/glee2/Markdown-practice/blob/main/2_SOH_estimation/MAPE.png?raw=true" width="50%" height="50%"></p>
 
 ### 연구 결과
 - 기존 데이터 기반 배터리 건강 상태 예측 방법론과의 비교 분석을 실시하여 다음의 성능 평가 결과를 얻었으며, 본 연구에서 제안한 방법론이 대부분의 예측 범위에서 가장 높은 성능을 달성하였음
