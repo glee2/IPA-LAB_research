@@ -59,29 +59,8 @@ $$ SOH(t)= {{C(t)} \over {C(0)}},\ C(0): 최초\ 충전\ 용량, C(t): t시점�
   - 다음과 같이 회귀 예측을 위한 성능 평가 지표를 도입하여, 배터리 건강 상태 예측에 대한 성능 평가를 수행함
 
 $$ MAPE={1 \over N} \sum^{N}_{i=1}({{|{SOH^{i}_{t}-\widehat{SOH}^{i}_{t}}|} \over {SOH^{i}_{t}}})*100 $$
-   TEST
-<math xmlns="http://www.w3.org/1998/Math/MathML" style="color:rgba(0,0,0,255);color:rgb(0,0,0);font-size:36.00pt;"><!--latexit:AAAFPHjabVNdTBxVFD537rYFWroD9IfSv6ksCm2puy1apKIsBQq2DLS7CwssrLOz
-d3enzM6sM3eh2+0k96GpxuiD8aHaBxWIsTXGv2hjTKoxihpjiAJRE6OmT30xPvhi
-TGPi3R8rmt6byZxz7vn5znfPjWV0zaZe7yoSsGvd+g1VYc8MsWzNNMY8iqWmNK4F
-PdTMhD1m7CxRqV0L6NIrUdEtB06SHIn7y07fVlQGLdOkDL0l7tu4qene+5pb9h84
-2Hro/geOPdzV89jJ02fGJ6YUkjibztBsyGNkdX2lerNbbPCMyoFD0yRnj/N/uciI
-R9UV275WU1u3Zeu27fU7mMAwc7F1bD3bwCpYJau6tnPX7j17pX33NLKNbBPbzNys
-hjWwnWw328OkcEyxia4ZJKSaumkF02achKhGdRLOWERJx3QymVaShpbQVIXydoNx
-hRLeVkxRp5OWmTXixwuB47aZtVQSJOdoI5TXitfnPnykLSQHzpzojsiBomMgo6ik
-zyvxDSJi1csPHm1/aLzUhqGkSbgkEnu0HDDf3hGWA0PFfkXXsrvzkUfHOAE2tTQj
-ycRhnsDfXeR5MEsVjjdQPFnwHy/ElZSVXnffif6BOzoH46dcimUpsVkt28HqouJy
-JG6q2TQxaBHBhM+boZN5xaKaqhOnKpK1Ccc+rSTJBBcLWO3JfJE1R2rilriUMC3+
-GVQqWtdG5JW0befSMe6ZVmjK/v9ZwXi3s4ksTbRP5jUjw5EaaqlQIqtL1JRoLkOk
-uGZxXvQcFxTV0jhWSU0plqJSPp1VhcE5JQ/PDbItc0NsK6sfkQN9HOBqIBhyj4yG
-x7ge0M4TTkyiT1eSNtdl3lhjV3PpCkWRbWPbRwZNQ1FNznRkspxhPtLB1ejjnMke
-TS0MhmLl5qMFY0yNirVrCI6XOJ+Pd9zV3tjVXaq1nHSntMKMU40j8C/KuZkbV59n
-u3jKaZ2X7eGDNz/dUZgq40hbn0/iG1h14W6f6B9ge0u3qA76h3s78z4pYvLXJsmO
-FLGz6am87ETzWqfPac7nL+QDQ/1TeY1bqNMamdXiJKXQgtH5x+pccMoJ1vo6Tst+
-n9dbxRHNzEbFujsj9y8FCzPRDqiAGmgAD7TAYTgKA3AKTkMAZsGBi/AMXIaX4Cq8
-Dm/Am/A2vAvvwXX4AD6Ez+Bz+BK+gq9hCb6BZViF7+AHuAm34Ff4HW6jSrQZSegA
-akPHkB/JKIRG0RiaQhqy0HnkoEvoKfQsuoxeRFfQy+gd9D76CC2iJfQj+gn9gm4K
-14UbwsfCJ8KnwqLwhbAkfC/8LNwSfhP+EP4Ubgt/YReuxCKuw/W4CTfjVtyNe/E4
-VnEKZ3AO5zHDT+Kn8XP4BXwFz+EF/Cp+zVXtqnWVR0VA5Wd/Dv6zXAf/Bo21stE=--><mstyle><mrow><mtable columnspacing="0.167em" columnalign="right center left" displaystyle="true"><mtr><mtd><mi>M</mi><mi>A</mi><mi>P</mi><mi>E</mi><mo>=</mo><mrow><mn>1</mn><mo>\</mo><mi>o</mi><mi>v</mi><mi>e</mi><mi>r</mi><mi>N</mi></mrow><mrow><mover><mo>&#x2211;</mo><mrow><mi>N</mi></mrow></mover></mrow><mo>_</mo><mi>i</mi><mo>=</mo><mn>1</mn></mtd></mtr><mo maxsize="1">(</mo><mtr><mtd><mrow><mo lspace="0em" rspace="0em" maxsize="1">&#x2223;</mo><mrow><mi>S</mi><mi>O</mi><mrow><msup><mi>H</mi><mrow><mi>i</mi></mrow></msup></mrow><mo>_</mo><mi>t</mi></mrow><mo>-</mo><mrow><msup><mover><mrow><mi>S</mi><mi>O</mi><mi>H</mi></mrow><mo accent="true">&#x302;</mo></mover><mrow><mi>i</mi></mrow></msup></mrow><mo>_</mo><mi>t</mi></mrow></mtd></mtr><mo lspace="0em" rspace="0em" maxsize="1">&#x2223;</mo></mtable></mrow><mo>\</mo><mi>o</mi><mi>v</mi><mi>e</mi><mi>r</mi><mrow><mi>S</mi><mi>O</mi><mrow><msup><mi>H</mi><mrow><mi>i</mi></mrow></msup></mrow><mo>_</mo><mi>t</mi></mrow></mstyle></math>
+
+<p align="center"><img src="https://github.com/glee2/Markdown-practice/blob/main/2_SOH_estimation/MAPE.png?raw=true" width="80%" height="80%"></p>
 
 $$ N: 데이터\ 샘플\ 수,\ SOH^{i}_{t}:\ i번째\ 샘플의\ 실제\ t시점에서의\ SOH\ 값,\\\ \hat{SOH}^{i}_{t}:\ 모델이\ 예측한\ i번째\ 샘플의\ t시점에서의\ SOH\ 값 $$
 
