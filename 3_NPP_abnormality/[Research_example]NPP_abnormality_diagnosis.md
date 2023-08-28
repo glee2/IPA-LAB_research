@@ -56,7 +56,7 @@
 
 - 위 오차 행렬을 바탕으로, $i$번째 클래스에 대한 성능 평가 지표를 다음과 같이 계산함
 
-<p align="center"><img src="https://github.com/glee2/Markdown-practice/blob/main/3_NPP_abnormality/Perf_eval.png?raw=true" width="80%" height="80%"></p>
+<p align="center"><img src="https://github.com/glee2/Markdown-practice/blob/main/3_NPP_abnormality/Perf_eval.png?raw=true" width="50%" height="50%"></p>
 
 ### 연구 결과
 - 확보한 전체 데이터셋에 5-fold 교차 검증 방식을 통해 다음의 성능 평가 결과를 얻었으며, 정상 상태와 10가지의 비정상 상태 모두에 대해 0.97 이상의 높은 정확도 및 분류 예측 성능 평가 지표를 달성하였음
