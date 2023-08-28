@@ -4,22 +4,15 @@
 
 
 
-$$ \vert {{SOH}^{i}_{t} - \widehat{SOH}^{i}_{t}} \vert $$ 
+$$ \vert {\widehat{SOH}^{i}_{t}} \vert $$ 
 
-
-
-
-
-
-
-
-
+<!--
 $$ MAPE= {{1 \over N} \sum^{N}_{i=1}{({{|{SOH^{i}_{t} - \widehat{SOH}^{i}_{t}}}}|} \over {SOH^{i}_{t}}})}*100} $$
 
 $$ {{1 \over N} \sum^{N}_{i=1}{()}} $$
 
 $$ N: 데이터\ 샘플\ 수,\ SOH^{i}_{t}:\ i번째\ 샘플의\ 실제\ t시점에서의\ SOH\ 값,\\\ \widehat{SOH}^{i}_{t}:\ 모델이\ 예측한\ i번째\ 샘플의\ t시점에서의\ SOH\ 값 $$
-
+-->
 
 ### 연구의 필요성
 - <b>리튬-이온 배터리(Li-ion battery)</b>의 충전 용량은 충・방전을 반복함에 따라 점차 감소하며, <b>건강 상태(SOH: State-of-health)</b>은 이러한 배터리의 수명을 측정하는 지표임
