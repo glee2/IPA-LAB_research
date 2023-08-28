@@ -1,4 +1,4 @@
-# 대학 기술이전 파트너 추천 시스템 개발(Inventor-licensee matchmaking for university technology licensing) 
+# 대학 기술이전 수요-공급 매칭 방법론 개발 </br> Inventor-licensee matchmaking for university technology licensing
 
 ### 연구의 필요성
 - 기술 발명자와 사용자는 주로 대학의 <b>기술이전 사무소(TLO: Technology licensing office)</b> 를 통해 연결됨
