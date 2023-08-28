@@ -29,10 +29,10 @@
 
   - 2차원 이미지로 변환된 데이터는 특정 시점에서의 발전소 상태변수를 나타냄. 이에 더하여 발전소 상태의 동적인 변화를 포착하기 위해, 5초의 간격을 두고 각 발전소 상태변수 값의 차이를 계산하여, 위와 같은 방식으로 2차원 이미지로 표현함. 이는 발전소 상태변수의 변화 패턴을 나타냄
 
-<p align="center"><img src="https://github.com/glee2/Markdown-practice/blob/main/3_NPP_abnormality/Figure3.png?raw=true" width="40%" height="40%"></p>
+<p align="center"><img src="https://github.com/glee2/Markdown-practice/blob/main/3_NPP_abnormality/Figure3.png?raw=true" width="25%" height="25%"></p>
 <p align="center"><u><b> 특정 시점의 발전소 상태변수에 대한 2차원 이미지 </b></u></p>
 
-<p align="center"><img src="https://github.com/glee2/Markdown-practice/blob/main/3_NPP_abnormality/Figure4.png?raw=true" width="40%" height="40%"></p>
+<p align="center"><img src="https://github.com/glee2/Markdown-practice/blob/main/3_NPP_abnormality/Figure4.png?raw=true" width="25%" height="25%"></p>
 <p align="center"><u><b> 발전소 상태변수의 변화량에 대한 2차원 이미지 </b></u></p>
 
   - 각 시뮬레이션 데이터 샘플은 발전소 상태변수의 변화 패턴을 얻을 수 있는 5초부터 30초까지 각 시점에 대해 이미지 변환을 수행하여 다시 25개의 서브샘플로 나뉘어짐. 이에 따라 11개의 정상 혹은 비정상 상태에 대한 3,300개의 데이터 샘플을 활용하여 총 82,500개의 서브샘플을 추출하였고, 이를 CNN 모델의 학습용 데이터셋으로 활용함
@@ -61,4 +61,4 @@
 ### 연구 결과
 - 확보한 전체 데이터셋에 5-fold 교차 검증 방식을 통해 다음의 성능 평가 결과를 얻었으며, 정상 상태와 10가지의 비정상 상태 모두에 대해 0.97 이상의 높은 정확도 및 분류 예측 성능 평가 지표를 달성하였음
 
-<p align="center"><img src="https://github.com/glee2/Markdown-practice/blob/main/3_NPP_abnormality/Figure6.png?raw=true" width="80%" height="80%"></p>
+<p align="center"><img src="https://github.com/glee2/Markdown-practice/blob/main/3_NPP_abnormality/Figure6.png?raw=true" width="60%" height="60%"></p>
