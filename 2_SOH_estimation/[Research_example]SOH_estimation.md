@@ -23,7 +23,7 @@ $$ SOH(t)= {{C(t)} \over {C(0)}},\ C(0): 최초\ 충전\ 용량, C(t): t시점�
   - 0~1,000 충・방전 주기 동안의 SOH 값이 기록되어 있음
 
 <p align="center"><img src="https://github.com/glee2/Markdown-practice/blob/main/2_SOH_estimation/Figure1.jpg?raw=true" width="80%" height="80%"></p>
-<p align="center"><U><b> 리튬-이온 배터리 수명 열화 데이터 예시 </b></U></p>
+<p align="center"><U> 리튬-이온 배터리 수명 열화 데이터 예시 </U></p>
 
 ### 방법론
 - RP (Recurrence plot), GAF (Gramian angular fields)와 같은 시계열-이미지 변환 방법(time-series imaging methods)을 활용하여 시계열 형태인 배터리 수명 열화 데이터를 이미지 형태의 데이터로 변환함
@@ -59,7 +59,7 @@ $$ SOH(t)= {{C(t)} \over {C(0)}},\ C(0): 최초\ 충전\ 용량, C(t): t시점�
   - 다음과 같이 회귀 예측을 위한 성능 평가 지표를 도입하여, 배터리 건강 상태 예측에 대한 성능 평가를 수행함
 
 
-$$ MAPE={{1 \over N}\sum^{N}_{i=1}({{|{SOH^{i}_{t}-\hat{SOH}^{i}_{t}}|} \over {SOH^{i}_{t}}})*100} $$
+$$MAPE={{1 \over N}\sum^{N}_{i=1}({{|{SOH^{i}_{t}-\hat{SOH}^{i}_{t}}|} \over {SOH^{i}_{t}}})*100}$$
 
 
 
